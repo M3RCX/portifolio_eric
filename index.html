@@ -19,125 +19,155 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Eric Motta</a>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#AboutMe">Sobre mim</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">trabalhos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">contao</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">referencias</a>
-                    </li>
-                </ul>
-            </div>
-
-        </nav>
-    </header>
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                <span class="fs-4">Eric Motta</span>
+              </a>
+        
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#about-me" class="nav-link" aria-current="page">sobre mim</a></li>
+                <li class="nav-item"><a href="#work" class="nav-link">trabalhos</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">contatos</a></li>
+              </ul>
+            </header>
+          </div>
     <main>
         <section id="AboutMe" class="">
-            <div class="p-3 mb-2 bg-secondary text-white">
+            
+            <div class="p-3 mb-5 bg-secondary text-white">
                 <div class="title-about-me d-flex justify-content-center">
                     <h1>Sobre mim</h1>
                 </div>
             </div>
-            <div class="container mt-5">
-                <div class="row justify-content-center content-about-me d-flex justify-content-evenly">
-                    <p class="text-about-me col-6">
-                        Sou jornalista apaixonado pela área do comunicação. Tive oportunidades de trabalhar com roteirosr
-                        e edições básicas de podcast. Já realizei trabalhos de assessoria de imprensa e atualmente atuou
-                        no web jornal que cobre a cidade de Artur Nogueira e Engenheiro Coelho. Entre meus hobbies
-                        favoritos, amo assitir filmes e séries informativos e educativos. Além disso, adoro escrever
-                        texto literários e perceber a reação das pessoas ao lerem eles. Minha ambição é ser um grande
-                        produtor de conteúdo midiático, com habilidades e conhecimentos em diversas áreas da
-                        comunicação.
-                    </p>
-                    <p class="perfil-foto col-4">
-                        <img src="/img/perfil.jfif">
-                    </p>
+            <div class="container">
+                <div class="mt-5">
+                    <div class="row justify-content-center content-about-me d-flex justify-content-evenly">
+                        <p class="text-about-me col-6">
+                            Sou jornalista apaixonado pela área do comunicação. Tive oportunidades de trabalhar com
+                            roteiros
+                            e edições básicas de podcasts. Já realizei trabalhos de assessoria de imprensa e atualmente atuo
+                            no web jornal que cobre a cidade de Artur Nogueira e Engenheiro Coelho. Entre meus hobbies
+                            favoritos, amo assitir filmes e séries informativos e educativos. Além disso, adoro escrever
+                            textos literários e perceber a reação das pessoas ao lerem eles. Minha ambição é ser um grande
+                            produtor de conteúdo midiático, com habilidades e conhecimentos em diversas áreas da
+                            comunicação.
+                        </p>
+                        <p class="perfil-foto col-4">
+                            <img src="/img/perfil.jfif">
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="work">
-            <div class="p-3 mb-2 bg-secondary text-white">
+        <section id="work" class="mt-5">
+            <div class="p-3 mb-5 bg-secondary text-white">
                 <div class="title-work d-flex justify-content-center">
                     <h1>Trabalhos</h1>
                 </div>
             </div>
-            <div class="news-story container">
-                <!-- START THE FEATURETTES -->
+            <div class="container">
+                <div class="news-story container">
+                    <!-- START THE FEATURETTES -->
 
-                <hr class="featurette-divider">
+                    <hr class="featurette-divider">
 
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">Fio a Fio.<span class="text-muted"> O impacto ambiental da
-                                produção textil e o podcast "escravos da moda".</span></h2>
-                        <p class="lead">Nessa materia escrevi sobre os impactos ambientais causados pela industria da
-                            moda e no podcast converso com Rebeca Freitas sobre como ainda é frequente a escravidão
-                            trabalhista nesse universo fashion.
-                        </p>
-                        <a type="button" class="btn btn-primary"
-                            href="https://fioafiopi.wixsite.com/home/produ%C3%A7%C3%A3o" target="_blank">Continue
-                            aqui</a>
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading">Fio a Fio.<span class="text-muted"> O impacto ambiental da
+                                    produção textil e o podcast "escravos da moda".</span></h2>
+                            <p class="lead">Nessa materia escrevi sobre os impactos ambientais causados pela industria
+                                da
+                                moda e no podcast converso com Rebeca Freitas sobre como ainda é frequente a escravidão
+                                trabalhista nesse universo fashion.
+                            </p>
+                            <a type="button" class="btn btn-primary"
+                                href="https://fioafiopi.wixsite.com/home/produ%C3%A7%C3%A3o" target="_blank">Continue
+                                aqui</a>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="/img/industria-textil.PNG"
+                                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                                width="500px">
+                        </div>
                     </div>
-                    <div class="col-md-5">
-                        <img src="/img/industria-textil.PNG"
-                            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                            width="500px">
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading">G1. <span class="text-muted">Consultoria feita ao G1.</span>
+                            </h2>
+                            <p class="lead">Nessa materia do G1 feita pelo EPTV1 fiz parte da equipe de consultoria.</p>
+                            <a type="button" class="btn btn-primary"
+                                href="https://www.google.com.br/amp/s/g1.globo.com/google/amp/sp/piracicaba-regiao/noticia/2020/02/29/amigas-de-escola-se-unem-para-dar-aulas-de-ingles-gratuitas-a-jovens-de-baixa-renda-em-sp.ghtml"
+                                target="_blank">Continue aqui</a>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <img src="/img/g1.PNG"
+                                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                                width="500px">
+
+
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading">Nogueirense. <span class="text-muted">Cobertura ao roubo no ETE sitio novo.</span>
+                            </h2>
+                            <p class="lead">Nessa reportagem fiz a cobertura ao assalto que aconteceu no ETE sitio novo.
+                            </p>
+                            <a type="button" class="btn btn-primary"
+                                href="https://nogueirense.com.br/homens-rendem-funcionario-do-saean-e-roubam-ete-sitio-novo/"
+                                target="_blank">Continue aqui</a>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="/img/nogueirense.PNG"
+                                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                                width="500px">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <!-- /END THE FEATURETTES -->
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="mt-5 mb-5">
+            <div class="p-3 mb-5 bg-secondary text-white">
+                <div class="title-about-me d-flex justify-content-center">
+                    <h1>Contato</h1>
+                </div>
+            </div>
+            <div class="container">
+
+                <div class="contact d-flex justify-content-center row align-items-center">
+                    <div class="d-flex col">
+                        <h3>Telefone:&nbsp;</h3>
+                        <h3>(11)97259-2700</h3>
+                    </div>
+                    <div class="col d-flex">
+                        <h3>Email:&nbsp;</h3>
+                        <h3>ericmottajr@gmail.com</h3>
+                    </div>
+                    <div class="col d-flex">
+                        <h3>Linkedin:&nbsp;</h3>
+                        <h3><a href="https://www.linkedin.com/in/eric-motta-6759ba217/">Eric Motta</a></h3>
                     </div>
                 </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
-                        <h2 class="featurette-heading">G1. <span class="text-muted">Consultoria feita ao G1.</span></h2>
-                        <p class="lead">Nessa materia do G1 feita pelo EPTV1 fiz parte da equipe de consultoria.</p>
-                        <a type="button" class="btn btn-primary"
-                            href="https://www.google.com.br/amp/s/g1.globo.com/google/amp/sp/piracicaba-regiao/noticia/2020/02/29/amigas-de-escola-se-unem-para-dar-aulas-de-ingles-gratuitas-a-jovens-de-baixa-renda-em-sp.ghtml"
-                            target="_blank">Continue aqui</a>
-                    </div>
-                    <div class="col-md-5 order-md-1">
-                        <img src="/img/g1.PNG"
-                            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                            width="500px">
-
-
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">Nogueirense. <span class="text-muted">Cobertura ao roubo no ETE sitio novo.</span>
-                        </h2>
-                        <p class="lead">Nessa reportagem fiz a cobertura ao assalto que aconteceu no ETE sitio novo.</p>
-                        <a type="button" class="btn btn-primary"
-                            href="https://nogueirense.com.br/homens-rendem-funcionario-do-saean-e-roubam-ete-sitio-novo/"
-                            target="_blank">Continue aqui</a>   
-                    </div>
-                    <div class="col-md-5">
-                        <img src="/img/nogueirense.PNG"
-                            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                            width="500px">
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <!-- /END THE FEATURETTES -->
             </div>
         </section>
     </main>
+    <footer class="d-flex justify-content-center bg-light mt-auto py-3">
+        <div class="">
+            <p>desenvolvido por <a href="https://github.com/M3RCX">Guilherme Mercante</a></p>
+        </div>
+    </footer>
 </body>
 
 </html>
