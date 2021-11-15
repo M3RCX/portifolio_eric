@@ -19,3 +19,7 @@ header{
 .card-text a{
     text-transform: uppercase;
 }
+
+.uppercase{
+    text-transform: uppercase;
+}
