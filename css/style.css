@@ -16,3 +16,6 @@ header{
     font-size: 25px;
 }
 
+.card-text a{
+    text-transform: uppercase;
+}
