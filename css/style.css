@@ -6,3 +6,7 @@ header .navbar a{
     border-radius: 50%;
     width: 100%;
 }
+
+#AboutMe p{
+    font-size: 20px;
+}
