@@ -15,3 +15,11 @@ header{
 #AboutMe p{
     font-size: 25px;
 }
+
+.card-text a{
+    text-transform: uppercase;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
